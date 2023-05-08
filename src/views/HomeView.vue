@@ -5,8 +5,8 @@
   <section class="home-section active">
 
     <h1 class="hero-heading"> Rafaella <br> Gonçalves</h1>
-    <img src="../assets/waterfall.jpg" class="fundo" alt="">
-    <img src="../assets/4CIO-185.jpg" class="home-img" alt="">
+    <img src="@/assets/waterfall.jpg" class="fundo" alt="">
+    <img src="@/assets/4CIO-185.jpg" class="home-img" alt="">
 
   </section>
 </template>

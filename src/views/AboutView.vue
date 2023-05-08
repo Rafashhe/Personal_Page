@@ -4,7 +4,7 @@
 
 <template>
   <section class="about">
-    <img src="../assets/rafacort.jpg" class="about-img" alt="">
+    <img src="@/assets/rafacort.jpg" class="about-img" alt="">
 
     <div class="about-info">
       <ul>
@@ -25,7 +25,7 @@
         <br>
         Nas horas vagas, opta com frequencia por atividades 'indoor', como ler, escrever, dançar e jogar.
       </p>
-      <img src="../assets/Rafacort2.jpg" alt="" class="img2">
+      <img src="@/assets/Rafacort2.jpg" alt="" class="img2">
     </div>
 
   </section>
