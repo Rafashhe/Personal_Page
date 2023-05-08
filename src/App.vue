@@ -1,6 +1,11 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 
+window.onload = function () {
+  document.getElementById("load").classList.add("none")
+  console.log("carregado");
+
+}
 </script>
 
 <template>
@@ -15,10 +20,29 @@ import { RouterLink, RouterView } from 'vue-router'
     </div>
   </header>
 
+  <div class="load" id="load">Pera aí...</div>
+
   <RouterView />
 </template>
 
 <style scoped>
+.load {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: rgb(139, 119, 27);
+  }
+
+.none {
+  display: none;
+}
+
 header {
   line-height: 1.5;
   justify-content: space-evenly;
@@ -44,11 +68,11 @@ nav {
 nav a.router-link-exact-active {
   color: rgb(71, 82, 40);
   text-decoration: none;
-  
+
 }
 
 nav a.router-link-exact-active:hover {
-  background-color: transparent; 
+  background-color: transparent;
 }
 
 nav a {
