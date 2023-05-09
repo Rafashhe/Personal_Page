@@ -51,6 +51,13 @@
   
 }
 
+section {
+  background-image: url(../assets/ad-1628398908.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 
 .about-info {
   color: #ffffff;

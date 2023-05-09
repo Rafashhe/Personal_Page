@@ -38,33 +38,47 @@ export default {
 </script>
 
 <template>
-  <div class="up">
-    <h2>.:: Formação ::.</h2>
-    <p>Turismo | UFPR | 2016-2019
-    </p>
-    <h3>Áreas possíveis</h3>
-  </div>
 
-  <div class="sessao">
-    <div v-for="x in tech">
-      <card :data="x.title" />
-    </div>
-  </div>
+  <section>
 
-  <div class="down">
-    <h2>.:: Profissão ::.</h2>
-    <p>4Network | 2019-atualmente</p>
-    <h3>Jornada na empresa</h3>
-  </div>
+    <div class="work-view">
+
+        <div class="up">
+              <h2>.:: Formação ::.</h2>
+              <p>Turismo | UFPR | 2016-2019
+              </p>
+              <h3>Áreas possíveis</h3>
+            </div>
+
+            <div class="sessao">
+              <div v-for="x in tech">
+                <card :data="x.title" />
+              </div>
+            </div>
+
+            <div class="down">
+              <h2>.:: Profissão ::.</h2>
+              <p>4Network | 2019-atualmente</p>
+              <h3>Jornada na empresa</h3>
+            </div>
 
 
-  <div class="sessao2">
-    <img src="../assets/cartao.png" classe="cart" alt="">
-    <!-- <h6>Assistente de Eventos | RP</h6>
-    <h6>Assistente de Controladoria</h6>
-    <h6>Analista de Controladoria</h6>
-    <h6>Consultora de Controladoria</h6> -->
-  </div>
+            <div class="sessao2">
+              <img src="../assets/cartao.png" classe="cart" alt="">
+              <!-- <h6>Assistente de Eventos | RP</h6>
+              <h6>Assistente de Controladoria</h6>
+              <h6>Analista de Controladoria</h6>
+              <h6>Consultora de Controladoria</h6> -->
+            </div>
+
+      </div>
+
+  </section>
+
+  
+    
+
+
 </template>
 
 <style scoped>
@@ -83,6 +97,7 @@ export default {
   justify-content: center;
   align-items: center;
   text-align: center;
+
 }
 
 .up {
@@ -96,6 +111,7 @@ export default {
   justify-content: center;
   align-items: center;
   text-align: center;
+
 }
 
 h2 {
@@ -122,6 +138,7 @@ flex-wrap: wrap;
 justify-content: center;
 align-items: center;
 text-align: center;
+
 }
 .down {
   color: #ffffff;
@@ -134,5 +151,17 @@ text-align: center;
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.work-view {
+  width: 100vw;
+  height: 100vh;
+}
+
+section {
+  background-image: url(../assets/ad-1628398908.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 </style>
