@@ -22,7 +22,11 @@ window.onload = function () {
 
   <div class="load" id="load">Pera aí...</div>
 
-  <RouterView />
+  <div class="body">
+
+     <RouterView />
+  </div>  
+ 
 </template>
 
 <style scoped>
@@ -49,6 +53,8 @@ header {
   padding-top: 10px;
   padding-bottom: 10px;
   text-decoration: none;
+  display: block;
+  height: 5vh;
 
 }
 
@@ -81,5 +87,11 @@ nav a {
   border-left: 1px solid transparent;
   text-decoration: none;
   color: rgb(31, 36, 20);
+}
+
+.body {
+  width: 100vw;
+  height: 95vh;
+  overflow: hidden;
 }
 </style>
