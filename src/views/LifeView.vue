@@ -41,7 +41,7 @@
 
   place-content: center;
   width: 1950px;
-  padding-top: 5%;
+  padding-top: 8%;
 
   justify-content: center;
   align-items: center;

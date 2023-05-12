@@ -27,7 +27,26 @@ export default {
           {
             title: "Agenciamento"
           }
-        ]
+        ],
+      work: 
+      [
+        {
+          title: "Assistente de Eventos (RP)"
+        },
+        {
+          title: "Assistente de Controladoria"
+        },
+        {
+          title: "Analista de Controladoria"
+        },
+        {
+          title: "Consultora de Controladoria"
+        },
+        {
+          title: "Curso | DEV"
+        }
+
+      ]
     }
   },
   components: {
@@ -64,11 +83,9 @@ export default {
 
 
             <div class="sessao2">
-              <img src="../assets/cartao.png" classe="cart" alt="">
-              <!-- <h6>Assistente de Eventos | RP</h6>
-              <h6>Assistente de Controladoria</h6>
-              <h6>Analista de Controladoria</h6>
-              <h6>Consultora de Controladoria</h6> -->
+              <div v-for="x in work">
+                <card :data="x.title" />
+              </div>
             </div>
 
       </div>
@@ -102,9 +119,9 @@ export default {
 
 .up {
   color: #ffffff;
-  opacity: 0.6;
+  opacity: 0.8;
   line-height: 40px;
-  padding-top: 2%;
+  padding-top: 5%;
   display: block;
   justify-content: center;
   align-items: center;
@@ -142,9 +159,9 @@ text-align: center;
 }
 .down {
   color: #ffffff;
-  opacity: 0.6;
+  opacity: 0.8;
   line-height: 40px;
-  padding-top: 2%;
+  padding-top: 5%;
   display: block;
   justify-content: center;
   align-items: center;

@@ -39,7 +39,7 @@ export default {
 
     box-shadow: 3px 3px 3px rgb(7, 7, 7);
     border-radius: 20px;
-    background-color: rgba(211, 192, 18, 0.2);
+    background-color: rgb(104, 93, 12);
     transition: 0.6s ease-in-out;
 
 }
