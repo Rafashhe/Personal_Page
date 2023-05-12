@@ -3,28 +3,33 @@
 
 
 <template>
-  <div class="quote">
-    <h2> ♣ Citação Favorita ♣</h2>
-    <br>
-    <i class=title> Make good art - Neil Gaiman (2012)</i>
 
-    <div class="text">
-      <p> A vida as vezes é dura, e quando as coisas ficam difíceis, faça boa arte.
-        <br>
-        (...)
-        <br>
-        O marido fugiu com uma política(o)? Faça boa arte.
-        <br>
-        Perna esmagada e depois devorada por uma jibóia mutante? Faça boa arte.
-        <br>
-        IR te rastreando? Faça boa arte.
-        <br>
-        Faça-a nos dias bons também.
-        <br>
-        Foque nas coisas que só vocês podem fazer.
-      </p>
+  <section>
+    <div class="quote">
+      <h2> ♣ Citação Favorita ♣</h2>
+      <br>
+      <i class=title> Make good art - Neil Gaiman (2012)</i>
+
+      <div class="text">
+        <p> A vida as vezes é dura, e quando as coisas ficam difíceis, faça boa arte.
+          <br>
+          (...)
+          <br>
+          O marido fugiu com uma política(o)? Faça boa arte.
+          <br>
+          Perna esmagada e depois devorada por uma jibóia mutante? Faça boa arte.
+          <br>
+          IR te rastreando? Faça boa arte.
+          <br>
+          Faça-a nos dias bons também.
+          <br>
+          Foque nas coisas que só vocês podem fazer.
+        </p>
+      </div>
     </div>
-  </div>
+
+  </section>
+
 </template>
 
 <style scoped>
@@ -54,8 +59,9 @@ h2 {
 }
 
 i {
-  color: #918f4c;
-  opacity: 0.6;
+  /* color: #918f4c; */
+  color:#ddd970;
+  /* opacity: 0.6; */
   line-height: 40px;
   font-size: 20px;
   padding-top: 5%;
@@ -67,7 +73,7 @@ i {
 
 .text {
   color: #ffffff;
-  opacity: 0.6;
+  opacity: 0.8;
   line-height: 40px;
   width: 100vw;
   padding: 100px 70px;
@@ -81,5 +87,14 @@ i {
 p {
   font-size: 20px;
   color: #ffffff;
+}
+
+section {
+  width: 100vw;
+  height: 95vh;
+  background-image: url(../assets/ad-1628398908.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 </style>
