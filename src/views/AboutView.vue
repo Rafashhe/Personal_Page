@@ -4,9 +4,12 @@
 
 <template>
   <section class="about">
-    <img src="@/assets/rafacort.jpg" class="about-img" alt="">
+    
 
     <div class="about-info">
+
+      <img src="@/assets/rafacort.jpg" class="about-img" alt="">
+      <br>
       <ul>
         <li> Rafaella Nair dos Anjos Fonseca Gonçalves</li>
         <li> 31 anos - Signo de Áries </li>
@@ -33,47 +36,59 @@
 
 <style scoped>
 .about {
-  height: 87em;
-  position: block;
+  height: 100vh;
+  width: 100vw;
   margin: 0;
-  padding: 150px 100px 0;
+  padding-left: 20rem;
+  padding-right: 30rem;
+  padding-bottom: 5rem;
   transition: 1s;
-  display: grid;
-  grid-template-columns: 25% 65%;
-  grid-gap: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
   place-content: center;
+  
 }
+
 
 .about-info {
   color: #ffffff;
-  opacity: 0.6;
   font-size: 20px;
   line-height: 40px;
-  padding-top: 3%;
+  width: 100vw;
+  height:30%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  padding-left: 30rem;
 }
 
 .about-img {
-  position: relative;
   width: 10vi;
   object-fit: cover;
   border-radius: 20px;
   border: 3px solid rgb(148, 121, 34);
-  left: 20%;
 }
 
+ul {
+  margin-left: 100px;
+}
 .subtitle {
   width: 100vw;
-  min-height: 100vh;
-  padding: 50px 70px;
-  margin-top: 15px;
+  min-height: 30%;
   transition: 1s;
   display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  padding-left: 30rem;
 }
 
 .texto {
   align-content: left;
   color: #fff;
-  opacity: 0.6;
   font-size: 20px;
   line-height: 40px;
 }
@@ -88,4 +103,5 @@
   border: 3px solid rgb(148, 121, 34);
   left: 9%;
 }
+
 </style>
